@@ -2,7 +2,7 @@
 
 - Kalian harus menginstall Python
 
-- Download https://github.com/Xnuvers007/Remove/archive/refs/heads/main.zip atau bisa menggunakan GIT
+- Download https://github.com/Xnuvers007/Remove/archive/refs/heads/master.zip atau bisa menggunakan GIT
 
 - cd Remove
 
