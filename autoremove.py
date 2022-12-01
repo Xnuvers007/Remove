@@ -15,6 +15,15 @@ print(f"Username: {username}")
 
 print("Note : script ini hanya berjalan di Windows dan menghapus files exe pada windows, jika ingin menambahkan untuk menghapus yang lain, bisa ditambahkan di script ini pull request ke github saya atau tunggu updatenya :D".upper())
 
+print('''\n
+
+    Github Pages : https://Xnuvers007.github.io
+    blog : https://mykingbee.blogspot.com
+    Github : Xnuvers007
+    Donate : https://saweria.co/Xnuvers007
+
+\n''')
+
 print("======"*5)
 # get the list of all files in Downloads folder exe
 # for file in glob.glob(f"C:\\Users\\{username}\\Downloads\\testautoremoveexe\\*.exe"):
@@ -79,6 +88,7 @@ def main():
     print("======"*5)
     print("1. Normal")
     print("2. Internet Download Manager")
+    print("3. Update (Khusus yang menggunakan Git clone")
     print("======"*5)
     print("Pilih Mode : ")
     mode = input()
@@ -86,6 +96,8 @@ def main():
         normal()
     elif mode == "2":
         internetdownloadmanager()
+    elif mode == "3":
+        os.system("git pull origin master")
     else:
         print("Mode tidak ditemukan")
         os.system("pause")
