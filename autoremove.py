@@ -35,9 +35,11 @@ def normal():
 
         # get the file size
         filesize = os.path.getsize(file)
+        # get the file size in MB
+        filesizeMB = filesize / 1024 / 1024
 
         # print the file name and size
-        print(f"File: {filename} Size: {filesize}\n")
+        print(f"File: {filename} Size: {filesizeMB:.2f} MB\n")
 
     print("======"*5)
     print("\n")
@@ -64,8 +66,11 @@ def internetdownloadmanager():
         # get the file size
         filesize = os.path.getsize(file)
 
+        # get the file size in MB
+        filesizeMB = filesize / 1024 / 1024
+
         # print the file name and size
-        print(f"File: {filename} Size: {filesize}\n")
+        print(f"File: {filename} Size: {filesizeMB:.2f} MB\n")
 
     print("======"*5)
     print("\n")
